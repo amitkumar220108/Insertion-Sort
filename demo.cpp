@@ -12,6 +12,7 @@ void insertionSort(int arr[],int n){
             swap(arr[prev],arr[prev+1]);
             prev--;
         }
+        arr[prev+1] = curr;
     }
 
     for (int i = 0; i < n; i++)
